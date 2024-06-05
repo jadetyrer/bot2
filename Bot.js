@@ -44,7 +44,6 @@ script.onload = () => {
 
         iframe.src = `https://localhost:52329/helpbot/${org}/${library}/${category}/${colour}`;
         document.body.appendChild(iframe);
-        iframe.contentWindow.location.reload();
     }
 };
 script.onerror = () => {
